@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Berlin Sans FB Demi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Berlin Sans FB Demi Bold"),
+    url("./font/BRLNSDB.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Berlin Sans FB Demi Bold";
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.cabezera {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.links {
+  color: #fbc741;
+}
+
+.himg {
+  height: 150px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  color: #fbc741;
+  font-size: 30px;
+}
+
+input {
+  width: 500px;
+  height: 20px;
+  background-color: #f8cb5b;
+  color: #624d21;
+  border-radius: 5px;
+}
+
+.trend-bar {
+  background-color: #6b6b6b;
+  color: white;
+  padding: 0.1px 20px;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands {
+  height: 30px;
+  margin: 0 5px;
+}
+
+/* Empieza styling de main */
+
+.start {
+  background-image: url("./imgs/startposter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.start-text {
+  font-size: 1.5rem;
+  margin-top: 110px;
+  padding: 0.1rem;
+  width: 700px;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.movies {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.movie-genre {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem 4rem;
+}
+
+.border-left {
+  border-color: #fbc741;
+  border-left-style: solid;
+  padding-left: 10px;
+}
+
+.cool-text {
+  font-size: 30px;
+}
+
+.movies-selection {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.movie {
+  margin-right: 50px;
+}
+
+.size {
+  width: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}

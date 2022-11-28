@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Berlin Sans FB Demi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Berlin Sans FB Demi Bold"),
+    url("./font/BRLNSDB.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Berlin Sans FB Demi Bold";
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.cabezera {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.links {
+  color: #fbc741;
+}
+
+.himg {
+  height: 150px;
+}
+
+.header-ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  color: #fbc741;
+  font-size: 30px;
+}
+
+input {
+  width: 500px;
+  height: 20px;
+  background-color: #f8cb5b;
+  color: #624d21;
+  border-radius: 5px;
+}
+
+.trend-bar {
+  background-color: #6b6b6b;
+  color: white;
+  padding: 0.1px 20px;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brands {
+  height: 30px;
+  margin: 0 5px;
+}
+
+.cool-font {
+  font-family: Eras ITC;
+  font-size: 36px;
+  border-left: #febd04 solid 4px;
+  padding-left: 10px;
+}
+
+.resumen {
+  font-family: Eras ITC;
+  font-size: 16px;
+}
+
+main {
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-container {
+  width: 80%;
+
+  display: flex;
+  flex-flow: row;
+}
+
+.text {
+  width: 600px;
+  margin-left: 50px;
+}
