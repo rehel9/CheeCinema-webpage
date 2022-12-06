@@ -103,6 +103,11 @@ input {
 .movies-selection {
   display: flex;
   flex-wrap: nowrap;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: wrap;
+  width: 70rem;
 }
 
 .movie {
