@@ -68,6 +68,12 @@ input {
 
 /* Empieza styling de main */
 
+main {
+  background-image: url("./imgs/FondoPagina.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .start {
   background-image: url("./imgs/startposter.png");
   background-repeat: no-repeat;
