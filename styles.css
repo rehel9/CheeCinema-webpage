@@ -4,6 +4,7 @@
   font-weight: normal;
   src: local("Berlin Sans FB Demi Bold"),
     url("./font/BRLNSDB.woff") format("woff");
+  font-display: swap;
 }
 
 body {
