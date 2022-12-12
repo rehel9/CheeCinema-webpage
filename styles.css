@@ -73,6 +73,7 @@ main {
   background-image: url("./imgs/FondoPagina.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .start {
@@ -95,12 +96,13 @@ main {
 .movies {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .movie-genre {
   display: flex;
   flex-flow: column nowrap;
-  padding: 1rem 4rem;
 }
 
 .border-left {
