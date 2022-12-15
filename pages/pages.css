@@ -73,11 +73,16 @@ input {
 }
 
 main {
-  margin-top: 50px;
+  padding-top: 50px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-image: url("../imgs/FondoPagina.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .movie-container {
@@ -90,4 +95,53 @@ main {
 .text {
   width: 600px;
   margin-left: 50px;
+}
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #febd04;
+
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-middle {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-flow: column wrap;
+  color: black;
+}
+
+.footer-copyright {
+  background-color: #896602;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.footer-link:link {
+  color: black;
+}
+
+hr {
+  width: 100%;
+  border: 5px #896602 solid;
+}
+
+.footer-social-net {
+  margin: 10px auto;
 }
