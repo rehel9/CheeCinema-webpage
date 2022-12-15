@@ -181,3 +181,12 @@ hr {
 .footer-social-net {
   margin: 10px auto;
 }
+
+
+/* Series */
+
+.series {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
